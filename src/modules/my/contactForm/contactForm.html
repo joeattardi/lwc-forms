@@ -1,0 +1,9 @@
+<template>
+  <form onformsubmit={handleSubmit}>
+      <div><label for="firstName">First Name</label></div>
+      <div><input type="text" id="firstName" name="firstName" value={form.values.firstName}></div>
+      <div><label for="lastName">Last Name</label></div>
+      <div><input type="text" id="lastName" name="lastName" value={form.values.lastName}></div>
+      <button type="submit">Submit</button>
+  </form>
+</template>
