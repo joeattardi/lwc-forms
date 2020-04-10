@@ -1,9 +1,9 @@
 {
     "name": "lwc-forms",
-    "description": "My amazing LWC app",
+    "description": "Form helper for LWC",
     "version": "0.0.1",
     "author": "Joe Attardi",
-    "bugs": "https://github.com/Joe Attardi/lwc-forms/issues",
+    "bugs": "https://github.com/joeattardi/lwc-forms/issues",
     "dependencies": {
         "compression": "^1.7.4",
         "express": "^4.17.1",
@@ -21,7 +21,7 @@
         "npm": ">=6.4.1",
         "yarn": ">=1.9.4"
     },
-    "homepage": "https://github.com/Joe Attardi/lwc-forms",
+    "homepage": "https://github.com/joeattardi/lwc-forms",
     "husky": {
         "hooks": {
             "pre-commit": "lint-staged"
@@ -39,7 +39,7 @@
             "eslint"
         ]
     },
-    "repository": "Joe Attardi/lwc-forms",
+    "repository": "joeattardi/lwc-forms",
     "scripts": {
         "build": "lwc-services build -m production",
         "build:development": "lwc-services build",
